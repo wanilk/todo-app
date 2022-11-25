@@ -8,12 +8,24 @@
 </head>
 <body>
 
-    <h1>Lista de tarefas</h1>
+    <form>
+      <div>
+        <label for="descrição">Descriçaõ</label>
+        <input type="text" id="descrição">
+      </div>
+      <div>
+        <label for="data">Data</label>
+        <input type="datetime-local" id="data">
+      </div>
+      <button id="btn-adicionar">Adicionar</button>
+    </form>
+
     <table id="tabela-de-tarefas"></table>
 
 
     <script src="assets/js/models/Tarefa.js"></script>
     <script src="assets/js/models/TarefasLista.js"></script>
+    <script src="assets/js/views/TarefaView.js"></script>
     <script src="assets/js/controllers/TarefaController.js"></script>
     <script src="assets/js/app.js"></script>
 </body>

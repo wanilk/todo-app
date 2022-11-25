@@ -8,6 +8,9 @@ class Tarefa {
     get descricao() {
         return this._descricao;
     }
+    get data() {
+        return this._data;
+    }
 }
-// const t1 = new tarefa("comprar pão", new Date(2022-11-9))
-// console.log(t1)
+// const t11 = new Tarefa("comprar pão e o leite", new Date(2022,11,9))
+// console.log(t11.descricao)
